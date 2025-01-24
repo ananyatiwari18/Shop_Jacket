@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+}
+
+.nav{
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding: 0 30px ;
+}
+
+.nav h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.nav i{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+.center{
+    /* height: 40%; */
+    width: 100%;
+    /* background-color: red; */
+    padding: 40px 80px;
+}
+
+.center h1{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.center-in{
+    height: 140px;
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-in p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.right{
+    width: 20%;
+}
+
+.elem{
+    /* background-color: yellow; */
+    /* margin: 5px; */
+    padding: 20px 0;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.elem i{
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0;
+}
+
+.elem:hover i{
+    opacity: 1;
+}
+
+/* .elem:hover a{
+    text-decoration: underline;
+} */
+
+.bottom{
+    height: 22.5%;
+    width: 100%;
+    background-color: red;
+    background-image: url(https://images.unsplash.com/photo-1617551307538-c9cdb9d71289?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0 25%;
+}
